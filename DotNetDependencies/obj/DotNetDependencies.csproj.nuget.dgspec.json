@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Coding\\cse325\\cse325-week1assignment\\DotNetDependencies\\DotNetDependencies.csproj": {}
+    "C:\\Coding\\cse325\\cse325-week1assignment\\DotNetDependencies\\DotNetDependencies.csproj": {}
   },
   "projects": {
-    "c:\\Coding\\cse325\\cse325-week1assignment\\DotNetDependencies\\DotNetDependencies.csproj": {
+    "C:\\Coding\\cse325\\cse325-week1assignment\\DotNetDependencies\\DotNetDependencies.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Coding\\cse325\\cse325-week1assignment\\DotNetDependencies\\DotNetDependencies.csproj",
+        "projectUniqueName": "C:\\Coding\\cse325\\cse325-week1assignment\\DotNetDependencies\\DotNetDependencies.csproj",
         "projectName": "DotNetDependencies",
-        "projectPath": "c:\\Coding\\cse325\\cse325-week1assignment\\DotNetDependencies\\DotNetDependencies.csproj",
+        "projectPath": "C:\\Coding\\cse325\\cse325-week1assignment\\DotNetDependencies\\DotNetDependencies.csproj",
         "packagesPath": "C:\\Users\\Kelse\\.nuget\\packages\\",
-        "outputPath": "c:\\Coding\\cse325\\cse325-week1assignment\\DotNetDependencies\\obj\\",
+        "outputPath": "C:\\Coding\\cse325\\cse325-week1assignment\\DotNetDependencies\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Kelse\\AppData\\Roaming\\NuGet\\NuGet.Config"

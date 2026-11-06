@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Coding\\cse325\\cse325-week1assignment\\W1Assignment\\W1Assignment.csproj": {}
+    "C:\\Coding\\cse325\\cse325-week1assignment\\W1Assignment\\W1Assignment.csproj": {}
   },
   "projects": {
-    "c:\\Coding\\cse325\\cse325-week1assignment\\W1Assignment\\W1Assignment.csproj": {
+    "C:\\Coding\\cse325\\cse325-week1assignment\\W1Assignment\\W1Assignment.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Coding\\cse325\\cse325-week1assignment\\W1Assignment\\W1Assignment.csproj",
+        "projectUniqueName": "C:\\Coding\\cse325\\cse325-week1assignment\\W1Assignment\\W1Assignment.csproj",
         "projectName": "W1Assignment",
-        "projectPath": "c:\\Coding\\cse325\\cse325-week1assignment\\W1Assignment\\W1Assignment.csproj",
+        "projectPath": "C:\\Coding\\cse325\\cse325-week1assignment\\W1Assignment\\W1Assignment.csproj",
         "packagesPath": "C:\\Users\\Kelse\\.nuget\\packages\\",
-        "outputPath": "c:\\Coding\\cse325\\cse325-week1assignment\\W1Assignment\\obj\\",
+        "outputPath": "C:\\Coding\\cse325\\cse325-week1assignment\\W1Assignment\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Kelse\\AppData\\Roaming\\NuGet\\NuGet.Config"
