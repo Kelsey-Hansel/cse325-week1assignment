@@ -1,0 +1,15 @@
+C:\Coding\cse325\cse325-week1assignment\DotNetDebugging\bin\Debug\net10.0\DotNetDebugging.exe
+C:\Coding\cse325\cse325-week1assignment\DotNetDebugging\bin\Debug\net10.0\DotNetDebugging.deps.json
+C:\Coding\cse325\cse325-week1assignment\DotNetDebugging\bin\Debug\net10.0\DotNetDebugging.runtimeconfig.json
+C:\Coding\cse325\cse325-week1assignment\DotNetDebugging\bin\Debug\net10.0\DotNetDebugging.dll
+C:\Coding\cse325\cse325-week1assignment\DotNetDebugging\bin\Debug\net10.0\DotNetDebugging.pdb
+C:\Coding\cse325\cse325-week1assignment\DotNetDebugging\obj\Debug\net10.0\DotNetDebugging.GeneratedMSBuildEditorConfig.editorconfig
+C:\Coding\cse325\cse325-week1assignment\DotNetDebugging\obj\Debug\net10.0\DotNetDebugging.AssemblyInfoInputs.cache
+C:\Coding\cse325\cse325-week1assignment\DotNetDebugging\obj\Debug\net10.0\DotNetDebugging.AssemblyInfo.cs
+C:\Coding\cse325\cse325-week1assignment\DotNetDebugging\obj\Debug\net10.0\DotNetDebugging.csproj.CoreCompileInputs.cache
+C:\Coding\cse325\cse325-week1assignment\DotNetDebugging\obj\Debug\net10.0\DotNetDebugging.sourcelink.json
+C:\Coding\cse325\cse325-week1assignment\DotNetDebugging\obj\Debug\net10.0\DotNetDebugging.dll
+C:\Coding\cse325\cse325-week1assignment\DotNetDebugging\obj\Debug\net10.0\refint\DotNetDebugging.dll
+C:\Coding\cse325\cse325-week1assignment\DotNetDebugging\obj\Debug\net10.0\DotNetDebugging.pdb
+C:\Coding\cse325\cse325-week1assignment\DotNetDebugging\obj\Debug\net10.0\DotNetDebugging.genruntimeconfig.cache
+C:\Coding\cse325\cse325-week1assignment\DotNetDebugging\obj\Debug\net10.0\ref\DotNetDebugging.dll
