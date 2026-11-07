@@ -112,4 +112,50 @@ Connection: close
 Date: Sat, 07 Nov 2026 20:39:54 GMT
 Server: Kestrel
 
+Sales Summary Evidence:
+var (salesFilesTotals, salesTotal) = CalculateSalesTotal(salesFiles);
 
+WriteSalesSummary(salesFilesTotals, salesTotal);
+
+(IEnumerable<(string, double)> salesFilesTotals, double) CalculateSalesTotal(IEnumerable<string> salesFiles)
+{
+    double salesTotal = 0;
+
+    List<(string, double)> filesTotals = new List<(string, double)>();
+
+    // Loop over each file path in salesFiles
+    foreach (var file in salesFiles)
+    {
+        // Read the contents of the file
+        string salesJson = File.ReadAllText(file);
+
+        // Parse the contents as JSON
+        SalesData? data = JsonConvert.DeserializeObject<SalesData?>(salesJson);
+
+        // Add the file path and the amount found in the Total field to the salesFilesTotals list
+        filesTotals.Add((file, data?.Total ?? 0));
+
+        // Add the amount found in the Total field to the salesTotal variable
+        salesTotal += data?.Total ?? 0;
+    }
+
+    salesFilesTotals = filesTotals;
+
+    return (salesFilesTotals, salesTotal);
+}
+
+void WriteSalesSummary(IEnumerable<(string, double)> salesFilesTotals, double salesTotal)
+{
+    var salesSummary = new StringBuilder();
+
+    salesSummary.AppendLine("Sales Summary:");
+    salesSummary.AppendLine("---------------------");
+    salesSummary.AppendLine($"Total Sales: {salesTotal:C}");
+    salesSummary.AppendLine();
+    salesSummary.AppendLine("Details:");
+    foreach (var (file, total) in salesFilesTotals)
+    {
+        salesSummary.AppendLine($"{file}: {total:C}");
+    }
+    File.WriteAllText(Path.Combine(salesTotalDir, "sales-summary.txt"), salesSummary.ToString());
+}
